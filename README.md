@@ -1,4 +1,4 @@
-# 🔤 Streamlit NLP Suite: Dịch Thuật & Sửa Lỗi Chính Tả
+# Streamlit NLP Suite: Dịch Thuật & Sửa Lỗi Chính Tả
 
 Ứng dụng web Xử lý Ngôn ngữ Tự nhiên (NLP) xây dựng bằng **Streamlit**, hỗ trợ 2 tác vụ chính:
 1. **Dịch văn bản (Text Translation):** Tự động nhận diện ngôn ngữ nguồn và dịch sang ngôn ngữ đích mong muốn.
@@ -6,7 +6,7 @@
 
 ---
 
-## 🏗️ Kiến Trúc Dự Án (`app.py`)
+## Kiến Trúc Dự Án (`app.py`)
 
 Dự án tuân thủ kiến trúc file duy nhất `app.py` nhưng được phân tách lớp rõ ràng:
 - **Phần 1: NLP Helper Functions (Backend / Logic)**:
@@ -23,7 +23,7 @@ Dự án tuân thủ kiến trúc file duy nhất `app.py` nhưng được phân
 
 ---
 
-## 📦 Các Thư Viện Sử Dụng
+## Các Thư Viện Sử Dụng
 
 - `streamlit`: Khung ứng dụng Web giao diện người dùng.
 - `langdetect`: Tự động nhận diện ngôn ngữ của văn bản đầu vào.
@@ -34,7 +34,7 @@ Dự án tuân thủ kiến trúc file duy nhất `app.py` nhưng được phân
 
 ---
 
-## ⚡ Hướng Dẫn Chạy Ứng Dụng
+## Hướng Dẫn Chạy Ứng Dụng
 
 ### 1. Cài đặt môi trường & dependencies
 ```bash
@@ -55,7 +55,7 @@ Sau khi chạy lệnh, trình duyệt sẽ tự động mở trang web ứng d�
 
 ---
 
-## ⚠️ Ràng Buộc Hệ Thống
+## Ràng Buộc Hệ Thống
 
 1. **Độ dài tối thiểu:** Văn bản cần có độ dài từ **3 ký tự trở lên**. Nếu ngắn hơn, ứng dụng sẽ thông báo nhắc nhở mà không thực hiện xử lý NLP.
 2. **Kết nối Internet:** Tác vụ dịch thuật sử dụng `GoogleTranslator` yêu cầu có kết nối mạng Internet. Ứng dụng đã bắt lỗi kết nối và hiển thị cảnh báo thân thiện nếu mất mạng.
